@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Learn_Scanner {
     public static void main(String[] args) {
+
         Scanner sc=new Scanner(System.in);
         System.out.println("Now we use the Scanner");
 
