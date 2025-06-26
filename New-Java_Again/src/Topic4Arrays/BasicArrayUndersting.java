@@ -1,3 +1,5 @@
+package Topic4Arrays;
+
 import java.util.Scanner;
 
 public class BasicArrayUndersting {
