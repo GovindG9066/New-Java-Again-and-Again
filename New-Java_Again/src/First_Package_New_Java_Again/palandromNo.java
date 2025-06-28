@@ -1,8 +1,12 @@
 package First_Package_New_Java_Again;
 
+import java.util.Scanner;
+
 public class palandromNo {
     public static void main(String[] args) {
-        int num=121;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Number :");
+        int num=sc.nextInt();
         int original=num;
         int reverse=0;
 
