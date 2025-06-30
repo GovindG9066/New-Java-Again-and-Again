@@ -9,7 +9,7 @@ public class PalindromeNo {
         while (num!=0){
             int digit=num%10;
             rev=rev*10+digit;
-            num/=10;
+            num/=10;    //Condition like i++
         }
         if (rev==original){
             System.out.println("Palindrom");
