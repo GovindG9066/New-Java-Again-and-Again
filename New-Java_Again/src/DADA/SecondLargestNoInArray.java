@@ -14,7 +14,6 @@ public class SecondLargestNoInArray {
         for (int i=0;i< arr.length-1;i++){
             if (arr[i]!=largest && arr[i]>second){
                 second=arr[i];
-
             }
         }
         System.out.println(largest);

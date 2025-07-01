@@ -1,8 +1,5 @@
 package DADA;
 
-
-import com.sun.jdi.LocalVariable;
-
 public class variablesType {
     static String StaticVariable="Hello i am static variable";
 
