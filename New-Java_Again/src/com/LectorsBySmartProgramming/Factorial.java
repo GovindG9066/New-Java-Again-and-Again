@@ -11,7 +11,7 @@ public class Factorial {
             for (int i=1;i<=num;i++){
                 factNo*=i;
             }
-            System.out.println(factNo);
+            System.out.println("Factorial of "+num+" is "+factNo);
         }
     }
 }
