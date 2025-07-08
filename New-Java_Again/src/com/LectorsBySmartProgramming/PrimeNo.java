@@ -11,9 +11,9 @@ public class PrimeNo {
             }
         }
         if (temp>0){
-            System.out.println(NO+" is Not an Prime No");
+            System.out.println(NO+" is Not an Prime Number");
         }else {
-            System.out.println(NO+" is Prime No");
+            System.out.println(NO+" is Prime Number");
         }
     }
 }
