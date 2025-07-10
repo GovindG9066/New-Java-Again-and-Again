@@ -46,5 +46,21 @@ public class ProgramPractice {
             System.out.println("Not Palandrom");
         }
 
+        System.out.println("Swipe 2 no without using 3rd variable");
+
+        int firstNoSwipe=12,secondNoSwipe=21;
+        System.out.println("First Beginning :");
+        System.out.println(firstNoSwipe);
+        System.out.println(secondNoSwipe);
+
+        firstNoSwipe=firstNoSwipe+secondNoSwipe;
+        secondNoSwipe=firstNoSwipe-secondNoSwipe;
+        firstNoSwipe=firstNoSwipe-secondNoSwipe;
+
+        System.out.println("After :");
+        System.out.println(firstNoSwipe);
+        System.out.println(secondNoSwipe);
+
+
     }
 }
