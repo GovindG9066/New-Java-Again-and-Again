@@ -28,15 +28,15 @@ public class ProgramPractice {
             a=b;
             b=next;
         }
-        System.out.println("Palandrom");
+        System.out.println("Palandrom No program");
 
-        int palNo=121;
+        int palNo=12121;
         int PalandromRev=0;
         int original=palNo;
 
         while (palNo!=0){
             int digit=palNo%10;
-            PalandromRev=palNo*10+digit;
+            PalandromRev=PalandromRev*10+digit;
             palNo/=10;
 
         }
