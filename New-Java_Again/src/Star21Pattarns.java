@@ -211,7 +211,7 @@ public class Star21Pattarns {
         System.out.println("13.");
 
         for (int i=1;i<=count;i++){
-            for (int j=count;j>=i;j--){
+            for (int j=count-1;j>=i;j--){
                 System.out.print("  ");
             }
             for (int k=1;k<=i;k++){
@@ -232,6 +232,27 @@ public class Star21Pattarns {
         }
         System.out.println("----------------------------------------------------------------");
 
+        System.out.println("14.");
 
+        for (int i=1;i<=count;i++){
+            for (int j=2;j<=i;j++){
+                System.out.print("  ");
+            }
+            for (int k=count;k>=i;k--){
+                if (k>=count){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            for (int l=count-1;l>=i;l--){
+                if (l==i){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
     }
 }
