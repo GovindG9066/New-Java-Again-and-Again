@@ -36,6 +36,19 @@ public class Star21Pattarns {
 
         System.out.println("----------------------------------------------------------------");
 
+        System.out.println("4.");
+       for (int i=1;i<=count;i++){
+           for (int j=2;j<=i;j++){
+               System.out.print("  ");
+           }
+           for (int k=count;k>=i;k--){
+               System.out.print("* ");
+           }
+           System.out.println();
+       }
+
+        System.out.println("----------------------------------------------------------------");
+
 
 
 
