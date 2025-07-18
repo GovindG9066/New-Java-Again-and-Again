@@ -205,5 +205,33 @@ public class Star21Pattarns {
             }
             System.out.println();
         }
+
+        System.out.println("----------------------------------------------------------------");
+
+        System.out.println("13.");
+
+        for (int i=1;i<=count;i++){
+            for (int j=count;j>=i;j--){
+                System.out.print("  ");
+            }
+            for (int k=1;k<=i;k++){
+                if (k>1){
+                    System.out.print("  ");
+                }else {
+                    System.out.print("* ");
+                }
+            }
+            for (int l=2;l<=i;l++){
+                if (l<=i-1){
+                    System.out.print("  ");
+                }else {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        }
+        System.out.println("----------------------------------------------------------------");
+
+
     }
 }
