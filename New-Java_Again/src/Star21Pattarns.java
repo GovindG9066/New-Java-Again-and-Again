@@ -363,5 +363,8 @@ public class Star21Pattarns {
            }
             System.out.println();
         }
+
+        System.out.println("----------------------------------------------------------------");
+
     }
 }
