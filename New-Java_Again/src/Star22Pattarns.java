@@ -1,4 +1,4 @@
-public class Star21Pattarns {
+public class Star22Pattarns {
     public static void main(String[] args) {
         int  count =5;
         System.out.println("1.");
