@@ -52,5 +52,6 @@ public class StarPattarn {
             System.out.println();
         }
         System.out.println();
+
     }
 }
