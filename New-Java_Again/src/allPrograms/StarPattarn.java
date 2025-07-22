@@ -97,10 +97,18 @@ public class StarPattarn {
                 System.out.print("  ");
             }
             for (int k=1;k<=i;k++){
-                System.out.print("* ");
+                if (k<=1){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
             }
             for (int l=2;l<=i;l++){
-                System.out.print("* ");
+               if (l<i){
+                   System.out.print("  ");
+               }else {
+                   System.out.print("* ");
+               }
             }
             System.out.println();
         }
@@ -109,10 +117,18 @@ public class StarPattarn {
                 System.out.print("  ");
             }
             for (int k=count;k>=i;k--){
-                System.out.print("* ");
+                if (k<count){
+                    System.out.print("  ");
+                }else {
+                    System.out.print("* ");
+                }
             }
             for (int l=count-1;l>=i;l--){
-                System.out.print("* ");
+                if (l>i){
+                    System.out.print("  ");
+                }else {
+                    System.out.print("* ");
+                }
             }
             System.out.println();
         }
