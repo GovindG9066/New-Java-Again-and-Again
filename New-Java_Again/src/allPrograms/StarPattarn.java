@@ -294,5 +294,6 @@ public class StarPattarn {
         }
         System.out.println();
 
+
     }
 }
