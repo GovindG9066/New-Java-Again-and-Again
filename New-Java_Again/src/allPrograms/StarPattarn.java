@@ -267,5 +267,31 @@ public class StarPattarn {
             System.out.println();
         }
         System.out.println();
+
+        for (int i=1;i<=count;i++){
+            for (int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            for (int k=count-1;k>=i;k--){
+                System.out.print("  ");
+            }
+            for (int l=1;l<=i;l++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        for (int i=1;i<=count;i++){
+            for (int j=count;j>=i;j--){
+                System.out.print("* ");
+            }
+            for (int k=2;k<=i;k++){
+                System.out.print("  ");
+            }
+            for (int l=count;l>=i;l--){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 }
