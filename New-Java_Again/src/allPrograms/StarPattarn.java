@@ -295,5 +295,14 @@ public class StarPattarn {
         System.out.println();
 
 
+
+        for (int i=1;i<=count;i++){
+            int no=i;
+            for (int j=1;j<=i;j++){
+                System.out.print(no+" ");
+                no=no+count-j;
+            }
+            System.out.println();
+        }
     }
 }
