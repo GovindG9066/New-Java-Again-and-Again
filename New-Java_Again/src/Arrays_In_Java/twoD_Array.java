@@ -17,8 +17,13 @@ public class twoD_Array {
 
         System.out.println(b.length);
         System.out.println(b[0].length);
-        for (int i=0;i<b[1].length;i++){
-            System.out.println(b[1][i]);
+
+
+        for (int i=0;i<b.length;i++){
+            for (int j=0;j<b[i].length;j++){
+                System.out.print(b[i][j]+" ");
+            }
+            System.out.println();
         }
 
 
