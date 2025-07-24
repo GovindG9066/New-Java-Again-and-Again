@@ -12,8 +12,14 @@ public class twoD_Array {
 
 
 
-        int[][] b={{10,20,30},{40,50,60}};
+        int[][] b={{10,20,30},{40,50,60,70}};
         System.out.println(b[0][0]);
+
+        System.out.println(b.length);
+        System.out.println(b[0].length);
+        for (int i=0;i<b[1].length;i++){
+            System.out.println(b[1][i]);
+        }
 
 
     }
