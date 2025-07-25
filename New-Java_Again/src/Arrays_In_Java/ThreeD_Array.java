@@ -6,6 +6,7 @@ public class ThreeD_Array {
 
 
         System.out.println(a[0][2][1]);
+        System.out.println(a[0].length);
         }
     }
 
