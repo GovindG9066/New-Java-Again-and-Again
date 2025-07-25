@@ -7,6 +7,15 @@ public class ThreeD_Array {
 
         System.out.println(a[0][2][1]);
         System.out.println(a[0].length);
+
+        for (int i=0;i<a.length;i++){
+            for (int j=0;j<a[i].length;j++){
+                for (int k=0;k<a[i][j].length;k++){
+                    System.out.print(a[i][j][k]+" ");
+                }
+            System.out.println();
+            }
+        }
         }
     }
 
