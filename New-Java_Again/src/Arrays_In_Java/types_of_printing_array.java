@@ -21,5 +21,16 @@ public class types_of_printing_array {
         }
         System.out.println();
 
+        System.out.println();
+
+        System.out.println("Third : while Loop - ");
+
+        int i=0;
+        while (i<a.length){
+            System.out.print(a[i]+" ");
+            i++;
+        }
+        System.out.println();
+
     }
 }
