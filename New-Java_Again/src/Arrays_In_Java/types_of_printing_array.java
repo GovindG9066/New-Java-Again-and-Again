@@ -32,5 +32,19 @@ public class types_of_printing_array {
         }
         System.out.println();
 
+        System.out.println();
+
+        System.out.println("Fourth : do while loop - ");
+        int j=0;
+
+        do {
+            System.out.print(a[j]+" ");
+            j++;
+        }
+        while (j<a.length);
+
+        System.out.println();
+        System.out.println();
+
     }
 }
