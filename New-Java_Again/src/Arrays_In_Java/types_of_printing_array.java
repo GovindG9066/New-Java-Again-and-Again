@@ -12,5 +12,14 @@ public class types_of_printing_array {
         }
         System.out.println();
 
+        System.out.println();
+
+        System.out.println("Second : for_each Loop - ");
+
+        for (int i:a){
+            System.out.print(i+" ");
+        }
+        System.out.println();
+
     }
 }
