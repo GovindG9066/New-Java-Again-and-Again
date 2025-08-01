@@ -44,5 +44,14 @@ public class array {
         }
         System.out.println(avgsum/2);
 
+        System.out.println("Bubble Sort : ");
+
+        for (int i=0;i<arr.length;i++){
+            if (arr[i]>arr[i+1]){
+                arr[i]=arr[i+1];
+            }
+            System.out.println(arr[i]);
+        }
+
     }
 }
