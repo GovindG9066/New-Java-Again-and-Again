@@ -1,6 +1,6 @@
 package Aug_8;
 
-public class insertionSort {
+public class  insertionSort {
     public static void main(String[] args) {
         int[] arr={4,8,66,1,5,22,45,6,45};
         int j,temp;
