@@ -6,7 +6,7 @@ public class insertionSort {
 
         int temp,j;
 
-        for (int i=0;i<arr.length;i++){
+        for (int i=1;i<arr.length;i++){
             temp=arr[i];
             j=i;
 
