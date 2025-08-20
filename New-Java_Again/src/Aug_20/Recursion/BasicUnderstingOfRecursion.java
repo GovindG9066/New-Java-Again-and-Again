@@ -16,13 +16,31 @@ public class BasicUnderstingOfRecursion {
         System.out.println(num);
         printNum1to5(num+1);
     }
+   public static void sumNnum(int i,int n,int sum){
+        if (i==n){
+            sum+=i;
+            System.out.println(sum);
+            return;
+        }
+        sum+=i;
+        sumNnum(i+1,n,sum);
+   }
+
+
+
+
+
+
     public static void main(String[] args) {
         int n=5;
         printnum(n);
 
         System.out.println();
         int num=1;
-
         printNum1to5(num);
+
+        System.out.println();
+
+        sumNnum(1,10,0);
     }
 }
