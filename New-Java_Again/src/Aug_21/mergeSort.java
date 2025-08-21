@@ -40,8 +40,8 @@ public class mergeSort {
     public static void main(String[] args) {
         int[] arr={654,8,64,31,4,32,4};
         int len= arr.length;
-
-        mergeSort.divide(arr,0,len-1);
+        mergeSort ms=new mergeSort();
+        ms.divide(arr,0,len-1);
 
         for (int i:arr){
             System.out.println(i);
