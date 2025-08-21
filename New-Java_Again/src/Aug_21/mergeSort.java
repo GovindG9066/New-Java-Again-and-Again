@@ -41,7 +41,7 @@ public class mergeSort {
         int[] arr={654,8,64,31,4,32,4};
         int len= arr.length;
 
-        divide(arr,0,len-1);
+        mergeSort.divide(arr,0,len-1);
 
         for (int i:arr){
             System.out.println(i);
