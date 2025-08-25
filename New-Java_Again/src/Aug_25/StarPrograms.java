@@ -10,5 +10,15 @@ public class StarPrograms {
             }
             System.out.println();
         }
+        System.out.println();
+
+        for (int i=1;i<=count;i++){
+            for (int j=count;j>=i;j--){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
     }
 }
